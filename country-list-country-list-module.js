@@ -46,7 +46,7 @@ let CountryListPage = class CountryListPage {
     getBackButtonText() {
         const win = window;
         const mode = win && win.Ionic && win.Ionic.mode;
-        return mode === 'ios' ? 'Inbox' : '';
+        return mode === 'ios' ? 'Назад' : '';
     }
     goHome() {
         this.router.navigate(['/']);

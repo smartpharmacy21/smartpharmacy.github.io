@@ -130,7 +130,7 @@ let AptekaPage = class AptekaPage {
     getBackButtonText() {
         const win = window;
         const mode = win && win.Ionic && win.Ionic.mode;
-        return mode === 'ios' ? 'Inbox' : '';
+        return mode === 'ios' ? 'Назад' : '';
     }
 };
 AptekaPage.ctorParameters = () => [];
